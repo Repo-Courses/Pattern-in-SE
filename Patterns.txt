@@ -9,6 +9,18 @@ Design Patterns:
   Facade: Provides a simplified interface to a complex system. Example: A library that provides a simpler interface to a complex web service.
   Flyweight: A space optimization technique that lets us use less memory by storing externally the data associated with similar objects. Example: A game engine that uses flyweight design pattern to represent thousands of trees using only a few shared objects and unique properties for each tree.
   Proxy: A class functioning as an interface to something else. Example: A library that provides a proxy for a remote web service.
+  
+Behavioral Patterns:
+  Chain of Responsibility: Passes a request sequentially along a dynamic chain of potential receivers. Example: A helpdesk application that routes customer inquiries to the appropriate department based on the issue.
+  Command: Encapsulates a request as an object, allowing it to be passed as a method argument. Example: A tool that allows users to undo and redo actions, such as text editing.
+  Interpreter: Implements a specialized language. Example: A calculator application that evaluates mathematical expressions.
+  Iterator: Sequentially access the elements of a collection without exposing its underlying representation. Example: A library that allows iteration over the elements of a container, such as an array or a list.
+  Mediator: Allows objects to communicate without knowing each other's identities. Example: A chat application that allows multiple users to send messages to each other without knowing each other's identities.
+  Memento: Capture and externalize an object's internal state, allowing the object to be restored to that state later. Example: A text editor that allows users to undo and redo changes.
+  Observer: Allows objects to be notified of changes to other objects. Example: A news website where the subscriber is notified when a new article is published.
+  State: Allows an object to change its behavior based on its internal state. Example: A media player that changes its behavior depending on whether it is playing, paused, or stopped.
+  Strategy: Allows an object to change its behavior based on its context. Example: A sorting algorithm that can be chosen at runtime.
+  Template Method: Defines the skeleton of an algorithm as an abstract class, allowing its subclasses to fill in the details. Example: A library that provides a common interface for different types of documents, such as text, PDF, and HTML.
 
 Architecture Patterns:
   Microservices: A method of developing software systems as a suite of independently deployable, small, modular services. Example: A e-commerce platform that has different microservices for handling user management, product catalog, and order management.
