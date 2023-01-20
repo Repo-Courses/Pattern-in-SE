@@ -1,0 +1,29 @@
+Design Patterns:
+  Singleton: Ensures a class has only one instance and provides a global access point to that instance. Example: A logging class that should only have one instance throughout the application.
+  Observer: Allows objects to be notified of changes to other objects. Example: A news website where the subscriber is notified when a new article is published.
+  Factory: Creates objects without specifying the exact class of object that will be created. Example: An application that can read and write different file formats using the same interface.
+  Adapter: Allows objects with incompatible interfaces to work together by wrapping one object with another. Example: An application that needs to work with multiple data storage systems, such as MySQL and MongoDB, using a common interface.
+  Bridge: Separates an object's interface from its implementation. Example: An application that allows different implementations of a shape, such as a rectangle or a circle, to be drawn using different rendering engines.
+  Composite: Compose objects into tree structures to represent part-whole hierarchies. Example: A file explorer that allows folders and files to be treated in the same way, regardless of whether they are a single file or a folder containing multiple files.
+  Decorator: Attaches additional responsibilities to an object dynamically. Example: An e-commerce platform that allows customers to add extra features, such as gift wrapping or expedited shipping, to their orders at checkout.
+  Facade: Provides a simplified interface to a complex system. Example: A library that provides a simpler interface to a complex web service.
+  Flyweight: A space optimization technique that lets us use less memory by storing externally the data associated with similar objects. Example: A game engine that uses flyweight design pattern to represent thousands of trees using only a few shared objects and unique properties for each tree.
+  Proxy: A class functioning as an interface to something else. Example: A library that provides a proxy for a remote web service.
+
+Architecture Patterns:
+  Microservices: A method of developing software systems as a suite of independently deployable, small, modular services. Example: A e-commerce platform that has different microservices for handling user management, product catalog, and order management.
+  Monolithic: A traditional, all-in-one architecture in which all components of the system are combined into a single codebase. Example: A legacy application that has all the business logic, data access, and presentation code in a single codebase.
+  Event-Driven: A software architecture pattern where events are used to trigger the execution of code. Example: A chat application that uses events to notify users when a new message is received.
+  Layered: A software architecture pattern where the system is separated into layers, each with a specific responsibility. Example: A web application that has a separate layer for handling user interface, business logic, and data access.
+
+Testing Patterns:
+  Test-Driven Development (TDD): A software development process in which tests are written before the implementation code. Example: A developer writing test cases for a feature before writing the implementation code.
+  Behavior-Driven Development (BDD): A software development process that emphasizes collaboration between developers, QA and non-technical stakeholders. Example: A team of developers, QA engineers, and product owners discussing and agreeing on the expected behavior of a feature before development starts.
+  Acceptance Test-Driven Development (ATDD): A software development process that emphasizes collaboration between developers, QA and non-technical stakeholders in defining acceptance criteria for a feature before development starts. Example: A team of developers, QA engineers, and product owners discussing and agreeing on the acceptance criteria for a feature before development starts.
+  Continuous Integration (CI): A software development practice where code changes are regularly integrated and tested automatically. Example: A development team that uses a CI tool such as Jenkins to automatically build and test their code every time changes are pushed to the version control system.
+
+Anti-patterns:
+  Golden Hammer: The practice of always using a particular tool or technique, even when it is not the best fit for the problem at hand. Example: A developer always using a particular framework for all projects, regardless of whether it is the best fit for the project.
+  Spaghetti Code: A software development anti-pattern where the codebase becomes a mess of tangled, interdependent code. Example: A codebase that has no clear separation of concerns and a lot of dependencies between different parts of the code.
+  The Blob: A software development anti-pattern where a single class or module becomes increasingly complex and difficult to maintain over time. Example: A class that started out as a simple data container but has grown to include a wide variety of functionality and dependencies.
+  The Big Ball of Mud: A software development anti-pattern where the system has no clear structure or organization. Example: A codebase that has no clear separation of concerns and a lot of dependencies between different parts of the code.
