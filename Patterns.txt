@@ -6,7 +6,7 @@ Design Patterns:
   Bridge: Separates an object's interface from its implementation. Example: An application that allows different implementations of a shape, such as a rectangle or a circle, to be drawn using different rendering engines.
   Composite: Compose objects into tree structures to represent part-whole hierarchies. Example: A file explorer that allows folders and files to be treated in the same way, regardless of whether they are a single file or a folder containing multiple files.
   Decorator: Attaches additional responsibilities to an object dynamically. Example: An e-commerce platform that allows customers to add extra features, such as gift wrapping or expedited shipping, to their orders at checkout.
-  Facade: Provides a simplified interface to a complex system. Example: A library that provides a simpler interface to a complex web service.
+  Facade: The Facade Pattern reduces the coupling of subsystems by encapsulating the functionality of a complex subsystem. A Facade hides implementation details and only exposes the desired functionality in an easily accessible way to the client.
   Flyweight: A space optimization technique that lets us use less memory by storing externally the data associated with similar objects. Example: A game engine that uses flyweight design pattern to represent thousands of trees using only a few shared objects and unique properties for each tree.
   Proxy: A class functioning as an interface to something else. Example: A library that provides a proxy for a remote web service.
   
