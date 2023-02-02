@@ -1,0 +1,3 @@
+Decentralized ID (DID) generation refers to the creation of unique, digital identities that are decentralized and stored on a distributed ledger system, such as a blockchain. DIDs allow individuals and organizations to own, control and manage their own digital identities, without relying on centralized entities such as governments or corporations to verify their identity. DIDs are typically generated and managed through software applications that use cryptography and blockchain technology to ensure the security and privacy of personal information.
+
+
